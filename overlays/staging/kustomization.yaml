@@ -7,3 +7,5 @@ patches:
   target:
     kind: ConfigMap
     name: sample-app-config
+patchesStrategicMerge:
+- nginx-version-patch.yaml
